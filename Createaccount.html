@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/CreateAccount.js"></script>
     <title> Odyssey Wayfarer </title>
 </head>
 <body>
@@ -13,7 +14,19 @@
     <h2> Welcome to Odyssey Wayfarer! </h2>
     <p>Please input your email and password</p>
     <form>
-        
+        <label for="First_Name">First Name:</label>
+        <input type="text" id="First_Name" name="First_Name" ><br>
+
+        <label for="Last_Name">Last Name:</label>
+        <input type="text" id="Last_Name" name="Last_Name"><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email"><br>
+
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password"><br>
+
+        <button onclick="CreateAccount()" formaction="Login.html">Create Account</button>
     </form>
     
 </main>
